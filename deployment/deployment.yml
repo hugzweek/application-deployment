@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: wildfire
-        image: hugzweek/wildfire-api:latest
+        image: hugzweek/wildfire-api:abc123def456
         ports:
         - containerPort: 8000
