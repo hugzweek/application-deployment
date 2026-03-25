@@ -17,5 +17,6 @@ spec:
       containers:
       - name: wildfire
         image: hugzweek/wildfire-api:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8000
